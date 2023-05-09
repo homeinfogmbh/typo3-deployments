@@ -4,6 +4,8 @@ namespace Homeinfo\Deployments\Domain\Model;
 
 use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 
+use Homeinfo\Deployments\Domain\Dataclasses\Address;
+
 class Deployments extends AbstractEntity
 {
     /**

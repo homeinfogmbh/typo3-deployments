@@ -63,11 +63,21 @@ class Deployments extends AbstractEntity
 
     public function getAddress(): Address
     {
-        return new Address($this->street, $this->house_number, $this->zip_code, $this->city);
+        return new Address(
+            $this->street,
+            $this->house_number,
+            $this->zip_code,
+            $this->city
+        );
     }
 
     public function getLPTAddress(): Address
     {
-        return new Address($this->lpt_street, $this->lpt_house_number, $this->lpt_zip_code, $this->lpt_city);
+        return new Address(
+            $this->lpt_street,
+            $this->lpt_house_number,
+            $this->lpt_zip_code,
+            $this->lpt_city
+        );
     }
 }

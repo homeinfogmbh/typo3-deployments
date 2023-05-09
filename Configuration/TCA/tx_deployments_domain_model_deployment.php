@@ -17,7 +17,7 @@ return [
         'iconfile' => 'EXT:deployments/Resources/Public/Icons/Extension.svg',
     ],
     'types' => [
-        '1' => ['showitem' => 'hidden, address'],
+        '1' => ['showitem' => 'hidden, street, house_number, zip_code, city'],
     ],
     'palettes' => [
         '1' => ['showitem' => ''],

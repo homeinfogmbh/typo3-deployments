@@ -3,10 +3,10 @@ CREATE TABLE tx_deployments_domain_model_deployment (
     pid int(11) DEFAULT 0 NOT NULL,
 
     --Address:
-    street varchar(255) DEFAULT NULL,
-    house_number varchar(255) DEFAULT NULL,
-    zip_code varchar(255) DEFAULT NULL,
-    city varchar(255) DEFAULT NULL,
+    street varchar(255) NOT NULL,
+    house_number varchar(255) NOT NULL,
+    zip_code varchar(255) NOT NULL,
+    city varchar(255) NOT NULL,
 
     --Local Public Transport Address:
     lpt_street varchar(255) DEFAULT NULL,

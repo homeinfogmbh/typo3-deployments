@@ -7,6 +7,11 @@ use TYPO3\CMS\Extbase\DomainObject\AbstractEntity;
 class Deployments extends AbstractEntity
 {
     /**
+     * @var int $uid
+     */
+    public $uid;
+
+    /**
      * @var int $pid
      */
     public $pid;

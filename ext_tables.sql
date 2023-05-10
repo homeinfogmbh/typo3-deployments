@@ -14,7 +14,7 @@ CREATE TABLE tx_deployments_domain_model_deployment (
     lpt_zip_code varchar(255) DEFAULT NULL,
     lpt_city varchar(255) DEFAULT NULL,
 
-    annotation text() DEFAULT NULL,
+    annotation text DEFAULT NULL,
 
     cruser_id int(11) unsigned DEFAULT 0 NOT NULL,
     tstamp int(11) unsigned DEFAULT 0 NOT NULL,

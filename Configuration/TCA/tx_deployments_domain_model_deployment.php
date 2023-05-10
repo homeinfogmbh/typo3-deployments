@@ -86,7 +86,7 @@ return [
                 'type' => 'input',
             ],
         ],
-        'annotoation' => [
+        'annotation' => [
             'exclude' => false,
             'label' => 'Annotation',
             'config' => [
